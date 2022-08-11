@@ -1,9 +1,8 @@
 <template>
   <footer>
     Powered by
-    <a href="https://github.com/a-Ikaros/" target="_blank" title="作者"
-      >ikaros</a
-    >
+    <!-- <a href="https://github.com/a-Ikaros/" target="_blank" title="作者">ikaros</a> -->
+    Ikaros
     | Copyright © 2022-{{ date }} | MIT License
   </footer>
 </template>
@@ -20,10 +19,12 @@ footer {
   background: var(--c-bg);
   color: var(--c-text);
 }
+
 a {
   color: var(--c-brand);
   font-weight: bold;
 }
+
 a:hover {
   text-decoration: none;
   color: var(--c-hover);

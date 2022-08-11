@@ -50,7 +50,6 @@ import { initTags } from "../utils";
 
 const { theme } = useData();
 const data = computed(() => initTags(theme.value.posts));
-console.log(data, "data");
 let selectTag = ref("");
 const toggleTag = (tag: string) => {
   selectTag.value = tag;
